@@ -54,7 +54,7 @@ If you would like to support this docker build, please feel free to buy me a cof
 - **Jun 01, 2022**
   - Merged latest from sethcottle/littelink.
   - Updated Dockerfile to reduce vulnearbilities.
-  - Added .dockerigrone file to prevent copying of unecessary stuff into docker image. Kudos to ![benvon](https://github.com/benvon) for the request.
+  - Added .dockerigrone file to prevent copying of unecessary stuff into docker image. Kudos to [benvon](https://github.com/benvon) for the request.
 
 # What is littlelink?
 
