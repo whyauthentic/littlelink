@@ -33,15 +33,30 @@ If you would like to support this docker build, please feel free to buy me a cof
 
 <a href="https://www.buymeacoffee.com/davisdredotcom"> <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210"></a>
 
-## Versions
- * **Sep 1, 2021** - Initial pull.
- * **Oct 1, 2021** - Pulled latest. Updated Docker with latest content.
- * **Oct 31, 2021** - Pulled latest from sethcottle/littelink. Updated Docker image.
- * **Dec 13, 2021** - Pulled latest. Updated Docker containers with latest content and security patches. 
- * **Jan 28, 2022** - Pulled latest. Updated Docker contrainers with latest content and security patches. 
- * **Feb 17, 2022** - Pulled latest. Updated Docker contrainers with latest content and security patches.
+## Updates
+- **Sep 1, 2021** 
+  - Initial pull.
+- **Oct 1, 2021** 
+  - Pulled latest. 
+  - Updated Docker with latest content.
+- **Oct 31, 2021** 
+  - Pulled latest from sethcottle/littelink. 
+  - Updated Docker image.
+- **Dec 13, 2021** 
+  - Pulled latest. 
+  - Updated Docker containers with latest content and security patches. 
+- **Jan 28, 2022** 
+  - Pulled latest. 
+  - Updated Docker contrainers with latest content and security patches. 
+- **Feb 17, 2022**
+  - Pulled latest. 
+  - Updated Docker contrainers with latest content and security patches.
+- **Jun 01, 2022**
+  - Merged latest from sethcottle/littelink.
+  - Updated Dockerfile to reduce vulnearbilities.
+  - Added .dockerigrone file to prevent copying of unecessary stuff into docker image. Kudos to ![benvon](https://github.com/benvon) for the request.
 
- # What is littlelink?
+# What is littlelink?
 
 ![LittleLink](https://cdn.cottle.cloud/littlelink/social-circle.png)
 
