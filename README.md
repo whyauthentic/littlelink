@@ -65,6 +65,9 @@ and [many.link](https://www.google.com). LittleLink was built using [Skeleton](h
 
 ### 🤝 Community Extras
 
+#### 📦 LittleLink Extended
+Looking for more niche services to add to your copy of LittleLink? Check out [LittleLink Extended](https://github.com/sethcottle/littlelink-extended). Users can add more niche services to this repository to help keep the core LittleLink repository less cluttered.
+
 #### 🎨 Figma
 Duplicate the [LittleLink Template on Figma Community](https://www.figma.com/community/file/846568099968305613) to help plan out and design your LittleLink page.
 
