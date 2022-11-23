@@ -55,6 +55,9 @@ If you would like to support this docker build, please feel free to buy me a cof
   - Merged latest from sethcottle/littelink.
   - Updated Dockerfile to reduce vulnearbilities.
   - Added .dockerigrone file to prevent copying of unecessary stuff into docker image. Kudos to [benvon](https://github.com/benvon) for the request.
+- **Nov 23, 2022**
+  - Mered latest from sethcottle/littlelink.
+  - Applied latest security updates.
 
 # What is littlelink?
 
@@ -64,6 +67,9 @@ LittleLink is a lightweight DIY alternative to services like [Linktree](https://
 and [many.link](https://www.google.com). LittleLink was built using [Skeleton](http://getskeleton.com/), a dead simple, responsive boilerplate—we just stripped out some additional code you wouldn't need and added in branded styles for popular services. 😊
 
 ### 🤝 Community Extras
+
+#### 📦 LittleLink Extended
+Looking for more niche services to add to your copy of LittleLink? Check out [LittleLink Extended](https://github.com/sethcottle/littlelink-extended). Users can add more niche services to this repository to help keep the core LittleLink repository less cluttered.
 
 #### 🎨 Figma
 Duplicate the [LittleLink Template on Figma Community](https://www.figma.com/community/file/846568099968305613) to help plan out and design your LittleLink page.
