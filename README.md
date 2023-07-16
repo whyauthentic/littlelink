@@ -1,27 +1,77 @@
+
 ![Logo](https://cdn.cottle.cloud/littlelink/littlelink.gif)
 
 # LittleLink
 The DIY self-hosted <a href="https://linktr.ee/" target="_blank" rel="noopener">LinkTree</a> alternative. LittleLink has more than 100 branded button styles you can easily use, with more being added by our community all the time.
+=======
+# LittleLink (Docker version)
+
+This project is a fork of [LittleLink](https://github.com/sethcottle/littlelink). I wanted to create a Docker version of this project that is not modify and kept to true original. And that is what I have done here with the exception of creating the docker files in this repo.
+
 
 ![Theme](https://cdn.cottle.cloud/littlelink/themesupport.gif)
 
-LittleLink has more than 100 branded button styles you can use (with even more being added by our community). You'll also find a light and dark theme ready to go. Not a fan of the default colors? Update `skeleton-light.css` or `skeleton-dark.css` to the HEX values of your choosing. You can also set your CSS to `skeleton-auto.css`, which will use the system theme of the device you visit on.
+To help you start with creating a container from this image, you can either use docker-compose or the docker command line. This container image is published on [DockerHub](https://hub.docker.com/r/davisdre/littlelink). 
 
-![Performance](https://cdn.cottle.cloud/littlelink/Lighthouse.svg)
+### docker-compose (recommended)
 
-Using [Skeleton](http://getskeleton.com/) let us build something that loads quickly & doesn't have any of the unnecessary bloat you would get from using a large framework for a page that requires nothing more than simplicity. LittleLink scored a 99/100 in performance when tested with [Google Lighthouse](https://developers.google.com/web/tools/lighthouse).
+```
+version: "3"
+services: 
+  little-link:
+    image: davisdre/littlelink:latest
+    container_name: littlelink-server
+    ports: 
+      - 80:80
+```
 
-![Publish](https://cdn.cottle.cloud/littlelink/Publish.svg)
+### docker commandline
 
-No need for gulp, npm, or anything else to make LittleLink work—it uses the bare essentials. You can automatically fork and deploy LittleLink with [Netlify](https://www.netlify.com/), [Vercel](https://vercel.com/), or [Amplify](https://aws.amazon.com/amplify). 👇️
+```
+docker run -d \
+  --name=littlelink-server \
+  -p 80:80
+  davisdre/littlelink:latest
+```
 
-[![Deploy to Netlify](https://cdn.cottle.cloud/littlelink/button-deploy-netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sethcottle/littlelink)
+## Support
+If you would like to support this docker build, please feel free to buy me a coffee!
 
-[![Deploy to Vercel](https://cdn.cottle.cloud/littlelink/button-deploy-vercel.svg)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsethcottle%2Flittlelink&project-name=littlelink&repository-name=littlelink)
+<a href="https://www.buymeacoffee.com/davisdredotcom"> <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210"></a>
 
-[![Deploy to Amplify](https://cdn.cottle.cloud/littlelink/button-deploy-amplify.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/sethcottle/littlelink)
+## Updates
+- **Sep 1, 2021** 
+  - Initial pull.
+- **Oct 1, 2021** 
+  - Pulled latest. 
+  - Updated Docker with latest content.
+- **Oct 31, 2021** 
+  - Pulled latest from sethcottle/littelink. 
+  - Updated Docker image.
+- **Dec 13, 2021** 
+  - Pulled latest. 
+  - Updated Docker containers with latest content and security patches. 
+- **Jan 28, 2022** 
+  - Pulled latest. 
+  - Updated Docker contrainers with latest content and security patches. 
+- **Feb 17, 2022**
+  - Pulled latest. 
+  - Updated Docker contrainers with latest content and security patches.
+- **Jun 01, 2022**
+  - Merged latest from sethcottle/littelink.
+  - Updated Dockerfile to reduce vulnearbilities.
+  - Added .dockerigrone file to prevent copying of unecessary stuff into docker image. Kudos to [benvon](https://github.com/benvon) for the request.
+- **Nov 23, 2022**
+  - Mered latest from sethcottle/littlelink.
+  - Applied latest security updates.
 
----
+# What is littlelink?
+
+![LittleLink](https://cdn.cottle.cloud/littlelink/social-circle.png)
+
+
+LittleLink is a lightweight DIY alternative to services like [Linktree](https://linktr.ee)
+and [many.link](https://www.google.com). LittleLink was built using [Skeleton](http://getskeleton.com/), a dead simple, responsive boilerplate—we just stripped out some additional code you wouldn't need and added in branded styles for popular services. 😊
 
 ### 🤝 Community Extras
 
