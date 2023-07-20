@@ -1,9 +1,15 @@
+
+![Logo](https://cdn.cottle.cloud/littlelink/littlelink.gif)
+
+# LittleLink
+The DIY self-hosted <a href="https://linktr.ee/" target="_blank" rel="noopener">LinkTree</a> alternative. LittleLink has more than 100 branded button styles you can easily use, with more being added by our community all the time.
+=======
 # LittleLink (Docker version)
 
 This project is a fork of [LittleLink](https://github.com/sethcottle/littlelink). I wanted to create a Docker version of this project that is not modify and kept to true original. And that is what I have done here with the exception of creating the docker files in this repo.
 
-LittleLink is a lightweight DIY alternative to services like [Linktree](https://linktr.ee)
-and [many.link](https://many.link/). LittleLink was built using [Skeleton](http://getskeleton.com/), a dead simple, responsive boilerplate—we just stripped out some additional code you wouldn't need and added in branded styles for popular services. 😊
+
+![Theme](https://cdn.cottle.cloud/littlelink/themesupport.gif)
 
 To help you start with creating a container from this image, you can either use docker-compose or the docker command line. This container image is published on [DockerHub](https://hub.docker.com/r/davisdre/littlelink). 
 
@@ -63,6 +69,7 @@ If you would like to support this docker build, please feel free to buy me a cof
 
 ![LittleLink](https://cdn.cottle.cloud/littlelink/social-circle.png)
 
+
 LittleLink is a lightweight DIY alternative to services like [Linktree](https://linktr.ee)
 and [many.link](https://www.google.com). LittleLink was built using [Skeleton](http://getskeleton.com/), a dead simple, responsive boilerplate—we just stripped out some additional code you wouldn't need and added in branded styles for popular services. 😊
 
@@ -74,38 +81,61 @@ Looking for more niche services to add to your copy of LittleLink? Check out [Li
 #### 🎨 Figma
 Duplicate the [LittleLink Template on Figma Community](https://www.figma.com/community/file/846568099968305613) to help plan out and design your LittleLink page.
 
-#### 🐋 Docker
-[Techno Tim](https://github.com/timothystewart6) is building [LittleLink-Server](https://github.com/techno-tim/littlelink-server). Check out [his video](https://youtu.be/42SqfI_AjXU)!
+[![Figma Community](https://cdn.cottle.cloud/littlelink/button-figma-community.svg)](https://www.figma.com/community/file/846568099968305613)
 
-[Drew](https://github.com/davisdre) is building a [super simple Docker implementation of LittleLink](https://github.com/davisdre/littlelink).
+#### 🐋 Docker
+• [Techno Tim](https://github.com/timothystewart6) is building [LittleLink-Server](https://github.com/techno-tim/littlelink-server). Check out [his video](https://youtu.be/42SqfI_AjXU)!
+
+• [Drew](https://github.com/davisdre) is building a [super simple Docker implementation of LittleLink](https://github.com/davisdre/littlelink).
 
 #### 🗃️ Misc
-[Khashayar](https://github.com/khashayarzavosh) is building [LittleLink Admin](https://github.com/khashayarzavosh/admin-littlelink) which lets you host your own admin portal to manage LittleLink!
+• [Khashayar](https://github.com/khashayarzavosh) is building [LittleLink Admin](https://github.com/khashayarzavosh/admin-littlelink) which lets you host your own admin portal to manage LittleLink!
 
-[Julian](https://github.com/JulianPrieber) is building [LittleLink Custom](https://github.com/JulianPrieber/littlelink-custom) which approaches the admin portal with an easy-to-use "plug-and-play" mentality!
+• [Julian](https://github.com/JulianPrieber) is building [LittleLink Custom](https://github.com/JulianPrieber/littlelink-custom) which approaches the admin portal with an easy-to-use "plug-and-play" mentality!
 
 ---
 
 ### 💖 Supporters
-You can support LittleLink by [buying me a beer](https://www.buymeacoffee.com/seth). You can also have your name or your company added to this section and the supporters page of the [LittleLink.io](https://littlelink.io) website.
+You can support LittleLink by [buying me a coffee](https://www.buymeacoffee.com/seth). You can also have your name or your company added to this section and the supporters page of the [LittleLink.io](https://littlelink.io) website.
 
 #### 🏢 Business Supporters
-[Add Your Company Name](https://www.buymeacoffee.com/seth/e/50574)
+• **[links.dev](https://github.com/fatih-yavuz/links.dev)**
+
+[![Add Your Company Name](https://cdn.cottle.cloud/littlelink/button-buy-me-a-coffee-company.svg)](https://www.buymeacoffee.com/seth/e/50574)
 
 #### ✨ Individual Supporters
-**[Drew Davis](https://connect.davisdre.me)**
+• **[Drew Davis](https://connect.davisdre.me)**
 
-**[Robotter112](https://robotter112.de/)**
+• **[Robotter112](https://robotter112.de/)**
 
-[Add Your Name](https://www.buymeacoffee.com/seth/e/50573)
+[![Buy Me A Coffee](https://cdn.cottle.cloud/littlelink/button-buy-me-a-coffee-individual.svg)](https://www.buymeacoffee.com/seth/e/50573)
+
+#### 🐙 GitHub Sponsors
+• **[Your Name Here](https://github.com/sponsors/sethcottle)**
+
+[![GitHub Sponsors](https://cdn.cottle.cloud/littlelink/button-github-sponsors.svg)](https://github.com/sponsors/sethcottle)
+
+#### ❤️ Patreon Members
+• **[Your Name Here](https://www.patreon.com/sethcottle)**
+
+[![Patreon](https://cdn.cottle.cloud/littlelink/button-patreon.svg)](https://www.patreon.com/sethcottle)
+
+
+#### 🥰 More Ways to Support LittleLink
+[![Buy Me A Coffee](https://cdn.cottle.cloud/littlelink/button-buy-me-a-coffee.svg)](https://www.buymeacoffee.com/seth/)
+
+[![Ko-Fi](https://cdn.cottle.cloud/littlelink/button-ko-fi.svg)](https://ko-fi.com/sethcottle)
+
+[![PayPal](https://cdn.cottle.cloud/littlelink/button-paypal.svg)](https://paypal.me/sethcottle/)
 
 ---
 
 ### 📊 Analytics
 
-To help build a more privacy focused product, we recommend using [Fathom Analytics](https://usefathom.com/ref/EQVZMV)*. On May 03, 2022 we moved [LittleLink.io](https://littlelink.io) from Google Analytics to Fathom! We're also making our analytics dashboard [publicly available](https://app.usefathom.com/share/xbmnwxxl/littlelink.io#/?filters=%5B%5D&range=last_7_days&site=2251799827005303)** for everyone to view.
+To help build a more privacy focused product, we recommend using [Fathom Analytics](https://usefathom.com/ref/EQVZMV)*. [View our Fathom analytics dashboard](https://app.usefathom.com/share/xbmnwxxl/littlelink.io#/?filters=%5B%5D&range=last_7_days&site=2251799827005303)**.
 
 ###### * This is a referral link. Using this link to sign up for Fathom is an easy way to help support LittleLink!
 
-###### ** Analytics displayed in this dashboard start May 03, 2022. View this [Google Sheets file](https://docs.google.com/spreadsheets/d/1GL4SroAdH-OZphBVR5z-BoSukHIEVJfao25q_e9-Ii8/edit?usp=sharing) with the generic unique pageview data from Google Analytics.
+###### ** Analytics in this dashboard start May 03, 2022. View this [Google Sheets file](https://docs.google.com/spreadsheets/d/1GL4SroAdH-OZphBVR5z-BoSukHIEVJfao25q_e9-Ii8/edit?usp=sharing) with the generic unique pageview data from Google Analytics.
 
+[![PayPal](https://cdn.cottle.cloud/littlelink/button-fathom-analytics.svg)](https://usefathom.com/ref/EQVZMV)
